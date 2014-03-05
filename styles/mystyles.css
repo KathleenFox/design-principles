@@ -1,5 +1,5 @@
 #wrapper {
-    width:400px;
+    width:09%;
     margin: 0 auto 0 auto;
     border: 1px solid #777;
 }
@@ -35,7 +35,7 @@ a:active {
     color:#999900;
 }
 article {
-    width:275px;
+    width:75%;
     margin:10px;
 }
 aside li {
@@ -47,3 +47,51 @@ footer {
     margin:10px;
     padding:10px;
 }
+
+
+
+@media screen and (max-width: 992px;)
+{
+    #wrapper {
+        width 90%
+        }
+    article{
+        width: 68%;
+        
+        }
+        
+        aside{
+            width:30%;}
+            
+        
+    
+}
+
+@media screen and (max-width: 768px;)
+{
+  
+    article{
+        width: auto;
+        float:none;
+        }
+        
+        
+        aside{
+        width: auto;
+        float:none;
+        
+        }
+    }
+    
+    @media screen and (max-width: 480px;)
+{
+  
+  
+        
+        aside{
+           display:none;
+            }
+       
+    }
+    
+    
